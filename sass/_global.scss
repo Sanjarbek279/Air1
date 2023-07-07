@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li{
+    list-style: none;
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    background-repeat: no-repeat;
+  }
+  .container{
+    width: 1280px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  button{
+    cursor: pointer;
+  }
+  

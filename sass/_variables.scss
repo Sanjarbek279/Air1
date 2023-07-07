@@ -1,0 +1,30 @@
+#variables {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 112px 0;
+  .protsent_1 {
+    h2 {
+      color: var(--2-b-2828, #2b2828);
+      text-align: center;
+      font-size: 48px;
+      font-family: Space Grotesk;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+    }
+    p {
+      color: var(--505056, #505056);
+      text-align: center;
+      font-size: 24px;
+      font-family: Space Grotesk;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+    }
+  }
+}
