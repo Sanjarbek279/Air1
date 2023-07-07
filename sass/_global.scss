@@ -17,9 +17,12 @@
   .container{
     width: 1280px;
     display: flex;
-    text-align: center;
+    // flex-direction: column;
+    // text-align: center;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    justify-content: center;
 
   }
   button{

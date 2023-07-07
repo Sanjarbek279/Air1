@@ -21,9 +21,10 @@ img {
 .container {
   width: 1280px;
   display: flex;
-  text-align: center;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
+  justify-content: center;
 }
 
 button {
@@ -536,7 +537,6 @@ nav li a {
 
 #John_life_info {
   display: flex;
-  width: 1440px;
   padding: 96px 80px;
   flex-direction: row;
   align-items: flex-start;
@@ -703,8 +703,7 @@ nav li a {
 
 #News {
   display: flex;
-  width: 1440px;
-  padding: 80px;
+  padding: 80px 0;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -770,7 +769,6 @@ nav li a {
 
 #footer {
   display: flex;
-  width: 1440px;
   padding: 112px 80px;
   flex-direction: column;
   justify-content: center;
@@ -782,7 +780,6 @@ nav li a {
   height: 217px;
   justify-content: space-between;
   align-items: flex-start;
-  align-self: stretch;
 }
 #footer .top_footer .text4 {
   display: flex;
